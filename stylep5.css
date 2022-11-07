@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'Ostrich';
+    src: url(./Capturas\ de\ Tela/OstrichSans-Bold.otf);
+}
+
+* {
+margin: 0; 
+padding: 0;
+font-family: 'Oxygen', sans-serif;
+}
+
+body {
+    max-width: 1355px;
+}
+
+nav{
+    z-index: 1;
+}
+
+.botão-cabeçalho {
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.6s;
+    border-radius: 25px;
+}
+
+.botão-cabeçalho:hover {
+    background-color: rgb(25, 92, 112);
+    color: white;
+}
+    
+.navbar {
+    display: flex;
+    position: sticky; 
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    cursor: pointer;
+}
+        
+.nav-list {
+    width: 50%;
+    display: flex;
+}
+        
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+    
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+        
+.rightNav {
+    text-align: right;
+    margin-left: 540px;
+}
+        
+        
+.background {
+    background: rgba(0, 0, 0, 0.4) url(https://img.elo7.com.br/product/main/374BE5D/papel-parede-adesivo-fosco-vinil-casual-azul-petroleo-3-05m-papel-de-parede-rosa.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+    
+#icone {
+    border-radius: 180px;
+    width: 80px;
+    margin-bottom: 2px;
+    margin-right: 50px;
+}
+
+#Pag{
+    text-decoration: underline;
+}
+
+#Mazzaropi > div{
+    display: flex;
+    padding: 30px 40px;
+}
+
+#png{
+    width: 200px;
+    height: 200px;
+    margin-left: 150px;
+}
+
+#texto1{
+    width: 600px;
+    color: white;
+}
+
+#texto1 > p{
+    margin-top: 20px;
+}
+
+#texto1 > h2{
+    color: rgb(25, 92, 112);
+}
+
+#Mazzaropi{
+    background-color: rgb(22, 27, 29);
+}
+
+iframe{
+    border-radius: 45px;
+    margin-left: 20px;
+}
+
+#Templo-Kinkaku-ji{
+    background-color: rgb(25, 92, 112);
+}
+
+#Templo-Kinkaku-ji > div{
+    padding: 30px 40px;
+    display: flex;
+}
+
+#temploss{
+    display: flex;
+}
+
+#temploss > div{
+    margin-right: 40px;
+}
+
+#temploss > div > p{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#texto2{
+    width: 600px;
+    color: white;
+    text-align: right;
+}
+
+#texto2 > p{
+    margin-top: 20px;
+}
+
+.templo{
+    width: 300px;
+    height: 250px;
+    border-radius: 35px;
+}
+
+footer{
+    height: 350px;
+    background: rgba(0, 0, 0, 0.4) url(https://img.elo7.com.br/product/main/374BE5D/papel-parede-adesivo-fosco-vinil-casual-azul-petroleo-3-05m-papel-de-parede-rosa.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    color: white;
+}
+
+hr{
+    height: 5px;
+    background-color: rgb(26, 25, 25);
+    border: none;
+}
+
+#grid3{
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#imgss{
+    width: 250px;
+}
+
+#imgss > p {
+    font-size: 13px;
+}
+
+.logos{
+    width: 40px;
+    margin-top: 30px;
+}
+
+#foto-de-perfil{
+    width: 200px;
+    border-radius: 45px;
+}
+
+#organização{
+    margin: 20px 40px;
+    display: flex;
+}
+
+#copy-right{
+    width: 20px;
+    height: 20px;
+}
+
+#texto-roda{
+    width: 300px;
+    text-align: center;
+    margin-left: 150px;
+}
+
+#texto-roda > a{
+    color: #318beb;
+    text-decoration: none;  
+}
+
+#texto-roda > img{
+    width: 250px;
+    height: 200px;
+}
+
+#Pag{
+    text-decoration: underline;
+}
